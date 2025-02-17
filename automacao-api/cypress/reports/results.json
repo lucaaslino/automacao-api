@@ -1,0 +1,275 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "130.0.6723.137",
+  "config": {
+    "configFile": "C:\\git\\automacao-projeto\\automacao-api\\cypress.config.js",
+    "testingType": "e2e",
+    "projectId": "t8w5rm",
+    "baseUrl": "https://dogapi.dog/api/v2",
+    "reporter": "json",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "overwrite": true
+    },
+    "projectRoot": "C:\\git\\automacao-projeto\\automacao-api",
+    "projectName": "automacao-api",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\git\\automacao-projeto\\automacao-api\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "injectDocumentDomain": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\git\\automacao-projeto\\automacao-api",
+    "fixturesFolder": "C:\\git\\automacao-projeto\\automacao-api\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "justInTimeCompile": true,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 63068,
+    "redirectionLimit": 20,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.17.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\git\\automacao-projeto\\automacao-api\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\git\\automacao-projeto\\automacao-api\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\git\\automacao-projeto\\automacao-api\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "133",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "133.0.6943.98"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Firefox",
+        "family": "firefox",
+        "majorVersion": "135",
+        "name": "firefox",
+        "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "version": "135.0"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "133",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "133.0.3065.69"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 130,
+        "name": "electron",
+        "path": "",
+        "version": "130.0.6723.137"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\lucas\\AppData\\Local\\Cypress\\Cache\\14.0.3\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "14.0.3",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "14.0.3",
+  "endedTestsAt": "2025-02-17T16:58:38.186Z",
+  "osName": "win32",
+  "osVersion": "10.0.22631",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "json",
+      "reporterStats": {
+        "suites": 7,
+        "tests": 7,
+        "passes": 7,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-02-17T16:58:33.514Z",
+        "end": "2025-02-17T16:58:38.187Z",
+        "duration": 4673
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/git/automacao-projeto/automacao-api/cypress/e2e/api_tests.cy.js",
+        "fileExtension": ".js",
+        "fileName": "api_tests",
+        "name": "api_tests.cy.js",
+        "relative": "cypress\\e2e\\api_tests.cy.js"
+      },
+      "stats": {
+        "duration": 4674,
+        "endedAt": "2025-02-17T16:58:38.186Z",
+        "failures": 0,
+        "passes": 7,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-02-17T16:58:33.512Z",
+        "suites": 7,
+        "tests": 7
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1600,
+          "state": "passed",
+          "title": [
+            "Testes Positivos da Dog API",
+            "GET /breeds",
+            "Deve retornar uma lista de raças de cães com status 200"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 527,
+          "state": "passed",
+          "title": [
+            "Testes Positivos da Dog API",
+            "GET /breeds/{id}",
+            "Deve retornar os detalhes da raça com status 200"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 533,
+          "state": "passed",
+          "title": [
+            "Testes Positivos da Dog API",
+            "GET /facts",
+            "Deve retornar uma lista de fatos com status 200"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 613,
+          "state": "passed",
+          "title": [
+            "Testes Positivos da Dog API",
+            "GET /groups",
+            "Deve retornar uma lista de grupos de raças com status 200"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 584,
+          "state": "passed",
+          "title": [
+            "Testes Positivos da Dog API",
+            "GET /groups/{id}",
+            "Deve retornar os detalhes do grupo com status 200"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 275,
+          "state": "passed",
+          "title": [
+            "Testes Negativos da Dog API",
+            "Deve retornar 404 para um breed inexistente"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 266,
+          "state": "passed",
+          "title": [
+            "Testes Negativos da Dog API",
+            "Deve retornar 404 para um grupo inexistente"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "runUrl": "https://cloud.cypress.io/projects/t8w5rm/runs/1",
+  "startedTestsAt": "2025-02-17T16:58:33.512Z",
+  "totalDuration": 4674,
+  "totalFailed": 0,
+  "totalPassed": 7,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 7,
+  "totalTests": 7
+}
